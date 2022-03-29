@@ -55,6 +55,12 @@ body{
     text-decoration:none;
     color: aliceblue;
 }
+.container h2:hover {
+    transition: 2s;
+    text-decoration:none;
+    color: rgb(46, 32, 21);
+    font-size: 25px;
+}
 .container a {
     text-decoration: none;
 }
@@ -71,7 +77,6 @@ body{
     color: aliceblue;
     margin:20%;
     margin-top: 0%;
-
 }
 .cont H1{
     font-size:70px
@@ -88,9 +93,36 @@ body{
     width:50%;
     margin-left: 20%
 }
-hr {
-	border: 0;
-	border-top: 1px solid #9e8769;
+.hr {
+    padding: 2px 10px;
+	display: inline-block;
+
+	/* visual do link */
+	background-color:#EDEDED;
+	color: #333;
+	text-decoration: none;
+	border-bottom:3px solid #EDEDED;
+}
+.infos{
+    display: flex;
+    justify-content: center;
+    margin-left: -30%;
+    margin-top: -18% ;
+}
+.infos img{
+    width: 20%;
+    margin-top:0 ;
+}
+.infos p{
+    font-size: 30px;
+    margin-top: -18%;
+    margin-left: 28%;
+    color: #EDEDED;
+}
+.infos p:hover{
+    transition: 2s;
+    color: rgb(29, 22, 16);
+    font-size: 33px;
 }
 
 @media screen and (max-width: 800px)  {    
