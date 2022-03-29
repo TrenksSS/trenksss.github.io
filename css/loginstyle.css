@@ -3,163 +3,94 @@ body{
     margin: 0;
     font-family:'Amatic SC';
     background: -webkit-gradient(linear, left top, left bottom, from(#f7ddad), to(#4b422f));
-    background: -moz-linear-gradient(top, #e7d08f, #441650);
+    /* background: -moz-linear-gradient(top, #e7d08f, #441650); */
     /* cursor: url(nat989.cur), default; */
-    
-}
-.main-login{
+    /* background-color: rgb(211, 197, 158); */
+
     text-decoration: none;
-    width: 100vw;
-    height: 100vh;
-   /* background: black; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
 }
+.cab{
+    justify-content:center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .left-login{
-    text-decoration: none;
-    width: 50vw;
-    height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:center;
     flex-direction: column;
+    
 }
-.left-login > h1{
-    color: #ffffff;
+.left-login H1{
+    font-size:80px;
+    margin-top: 0%;
+    margin-left: 13%;
+    
 }
-.left-login > h1:hover{
-    transition:.3s;
-    color: #5a4630;
-}
-.ins{
-    text-decoration: none;
-}
-.ins:hover{
-    text-decoration: none;
-    transition:.3s;
-    color: #ffffff;
-}
-.container{
-    display: flex;
-}
-.child1 >h2{
-    text-decoration: none;
 
+.left-login img {
+    width: 80%;
+    margin-left: 102px;
 }
-.right-login{
-    text-decoration: none;
-    width: 50vw;
-    height: 100vh;
+
+.container {
     display: flex;
     justify-content: center;
-    align-items: center;
 }
-.card-login{
-    width: 60%;
+.container img {
+    width: 50%;
+}
+.container h2 {
+    margin-top: 20%;
+    margin-left: 20%;
+    text-decoration: none;
+    color: aliceblue;
+}
 
+.child1 h2 {
+    margin-top: 40%;
+    margin-left: 60%;
+    text-decoration: none;
 }
-.right-login > h1{
-    color: #ffffff;
-}
-.card-login{
-    width: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction:column;
-    padding: 30px 35px;
-    background: rgba(0, 0, 0, 0.295);
-    border-radius: 10px ;
-    color: #9900ff;
-    box-shadow: 0px 10px 40px black;
-}
-.card-login > h1{
-    color:#615227;
-    font-weight: 800;
-    margin: 0;
-}
-.card-login > h2{
-    color:#ffffff;
-    font-weight: 800;
-    margin: 0;
-}
-.textfield{
-    width: 100%;
+.cont{
     display: flex;
     flex-direction: column;
-    align-items:flex-start;
-    margin: 10px 0;
+    text-align: center;
+    color: aliceblue;
+    margin:20%;
+    margin-top: 0%;
 
 }
-.textfield > input{
-    width: 100%;
-    border: none;
-    border-radius: 10px;
-    padding: 15px;
-    background: rgba(143, 66, 150, 0.459);
-    color: #fff;
-    font-size:12pt;
-    box-shadow:0px 10px 40px rgb(0, 0, 0);
-    outline: none;
-    box-sizing: border-box;
+.cont H1{
+    font-size:70px
 }
-.textfield > label{
-    color: #fff;
-    margin-bottom: 10px;
-
+.cont H1:hover{
+    transition:2s;
+    font-size:73px;
+    color:rgb(78, 47, 5);
 }
-.textfield > input::placeholder{
-    color: #fff;
-}
-.btn-login{
-    width:100%;
-    padding: 16px 0px;
-    margin: 25px;
-    border: none;
-    border-radius: 10px;
-    outline: none;
-    text-transform: uppercase;
-    font-weight: 800;
-    letter-spacing: 3px;
-    color: rgb(1, 133, 138);
-    background:rgb(15, 255, 243);
-    cursor:pointer ;
-    /* cursor: url(hol38.cur), default; */
+.cont h2{
+    font-size:40px
 }
 
-.btn-login:hover{
-    transition:.3s;
-    color: rgb(139, 255, 255);
-    background:rgb(0, 143, 148);
-    box-shadow: 0px 20px 40px rgba(101, 250, 255, 0.753);
+@media screen and (max-width: 800px)  {    
+    .left-login H1{
+        font-size:40px;
+        margin-top: 0%;
+        margin-left: 12%;
+        
+    }
+    .left-login img {
+        width: 80%;
+        margin-left:10%;
+    }
+    .container h2 {
+        margin-top: 4%;
+        margin-left: 0%;
+    }
+    .cont H1{
+        font-size:60px
+    }
 
-}
-
-.img-login{
-    width: 20vw;
-
-}
-.a{
-    width:100%;
-    padding: 16px 0px;
-    margin: 25px;
-    border: none;
-    border-radius: 10px;
-    outline: none;
-    text-transform: uppercase;
-    font-weight: 800;
-    letter-spacing: 3px;
-    color: rgb(1, 133, 138);
-    background:rgb(15, 255, 243);
-    cursor:pointer ;
-    cursor: url(hol38.cur), default;
-}
- .lin{
-     color:black;
-    text-decoration: none;
-}
-h2{
-    text-decoration: none;
+    
 }
