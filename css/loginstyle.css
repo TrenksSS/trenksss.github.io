@@ -25,6 +25,15 @@ body{
     font-size:80px;
     margin-top: 0%;
     margin-left: 13%;
+    color: rgb(78, 56, 9);
+    
+}
+.left-login H1:hover{
+    transition:2s;  
+    font-size:83px;
+    margin-top: 0%;
+    margin-left: 13%;
+    color: rgb(255, 255, 255);
     
 }
 
@@ -71,6 +80,10 @@ body{
 }
 .cont h2{
     font-size:40px
+}
+.cont img{
+    width:50%;
+    margin-left: 20%
 }
 
 @media screen and (max-width: 800px)  {    
