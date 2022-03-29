@@ -52,14 +52,17 @@ body{
 .container h2 {
     margin-top: 20%;
     margin-left: 20%;
-    text-decoration: none;
+    text-decoration:none;
     color: aliceblue;
+}
+.container a {
+    text-decoration: none;
 }
 
 .child1 h2 {
     margin-top: 40%;
     margin-left: 60%;
-    text-decoration: none;
+    text-decoration:none;
 }
 .cont{
     display: flex;
@@ -100,13 +103,22 @@ body{
     .container h2 {
         margin-top: 4%;
         margin-left: 0%;
+        text-decoration: none;
     }
     .cont H1{
         font-size:60px
     }
     .cont img{
-        width:40%;
+        width:25%;
         margin-left: 20%
+    }
+    .cont{
+        text-align: center;
+        color: aliceblue;
+        margin:30%;
+        margin-top: 0%;
+        text-decoration: none;
+    
     }
 
     
