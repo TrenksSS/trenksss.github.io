@@ -104,6 +104,10 @@ body{
     .cont H1{
         font-size:60px
     }
+    .cont img{
+        width:40%;
+        margin-left: 20%
+    }
 
     
 }
