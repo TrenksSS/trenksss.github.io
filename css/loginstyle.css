@@ -5,20 +5,19 @@
     text-decoration: none;
     font-family: 'Inconsolata', monospace;
 }
-body{
+
+body {
     background: -webkit-gradient(linear, left top, left bottom, from(#f7ddad), to(#4b422f));
     color: white;
 }
 
-#cabecalho {
-    
+#cabecalho {}
+
+#titulo_1 {
+    color: #4b422f;
 }
 
-#titulo_1{
-color: #4b422f;
-}
-
-#img_cabecalho{
+#img_cabecalho {
     width: 25%;
 
 }
@@ -32,33 +31,109 @@ color: #4b422f;
     margin-top: 1%;
 }
 
+.ancoras {
+    color: rgb(255, 255, 255);
+}
+
+.ancoras:hover {
+    color: #4b422f;
+    transition: 0.5s;
+}
+
 #instagram {
     text-decoration: none;
     color: rgb(255, 255, 255);
+    padding: 0%;
+    border-radius: 24%;
 }
-.ancoras{
-    color: rgb(255, 255, 255);
+
+#instagram img:hover {
+    box-shadow: 0 0 1em black;
+    transition: 0.5s;
+    border-radius: 23%;
 }
 
 #github {
     text-decoration: none;
     margin-left: 30px;
+    border-radius: 20%;
+}
+
+#github img:hover {
+    box-shadow: 0 0 1em black;
+    transition: 0.5s;
+    border-radius: 20%;
 }
 
 #linkedin {
     text-decoration: none;
     margin-left: 30px;
+    border-radius: 20%;
+}
+
+#linkedin img:hover {
+    box-shadow: 0 0 1em black;
+    transition: 0.5s;
+    border-radius: 20%;
 }
 
 #discord {
     text-decoration: none;
     margin-left: 30px;
+    border-radius: 24%;
 }
 
-#textos{
+#discord img:hover {
+    box-shadow: 0 0 1em black;
+    transition: 0.5s;
+    border-radius: 24%;
+}
+
+#textos {
     width: 100%;
     justify-content: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#tx_1 {
+    width: 50%;
+}
+
+#tx_2 {
+    width: 50%;
+}
+
+.titulos_tx {
+    color: #4b422f;
+}
+
+#gif {
+    width: 20%;
+}
+
+#linha{
+    display: flex;
+    justify-content: center;
+}
+#linha_1 {
+    width: 90%;
+    border: 1px solid aliceblue;
+    margin: 2%;
+}
+
+#infos {
+    display: flex;
+    justify-content: center;
+}
+
+#info_1 {
+    margin-right: 1%;
+    margin-left: 5%;
+}
+
+#info_2 {
+    margin-right: 1%;
+    margin-left: 5%;
 }
