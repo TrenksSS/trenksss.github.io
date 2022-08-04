@@ -1,161 +1,64 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
-body{
-    margin: 0;
-    font-family:'Amatic SC';
-    background: -webkit-gradient(linear, left top, left bottom, from(#f7ddad), to(#4b422f));
-    /* background: -moz-linear-gradient(top, #e7d08f, #441650); */
-    /* cursor: url(nat989.cur), default; */
-    /* background-color: rgb(211, 197, 158); */
-
-    text-decoration: none;
-}
-.cab{
-    justify-content:center;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.left-login{
-    display: flex;
-    justify-content:center;
-    flex-direction: column;
-    
-}
-.left-login H1{
-    font-size:80px;
-    margin-top: 0%;
-    margin-left: 13%;
-    color: rgb(78, 56, 9);
-    
-}
-.left-login H1:hover{
-    transition:2s;  
-    font-size:83px;
-    margin-top: 0%;
-    margin-left: 13%;
-    color: rgb(255, 255, 255);
-    
-}
-
-.left-login img {
-    width: 80%;
-    margin-left: 102px;
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-}
-.container img {
-    width: 50%;
-}
-.container h2 {
-    margin-top: 20%;
-    margin-left: 20%;
-    text-decoration:none;
-    color: aliceblue;
-}
-.container h2:hover {
-    transition: 2s;
-    text-decoration:none;
-    color: rgb(46, 32, 21);
-    font-size: 25px;
-}
-.container a {
-    text-decoration: none;
-}
-
-.child1 h2 {
-    margin-top: 40%;
-    margin-left: 60%;
-    text-decoration:none;
-}
-.cont{
-    display: flex;
-    flex-direction: column;
+* {
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    color: aliceblue;
-    margin:20%;
-    margin-top: 0%;
+    text-decoration: none;
+    font-family: 'Inconsolata', monospace;
 }
-.cont H1{
-    font-size:70px
+body{
+    background: -webkit-gradient(linear, left top, left bottom, from(#f7ddad), to(#4b422f));
+    color: white;
 }
-.cont H1:hover{
-    transition:2s;
-    font-size:73px;
-    color:rgb(78, 47, 5);
-}
-.cont h2{
-    font-size:40px
-}
-.cont img{
-    width:50%;
-    margin-left: 20%
-}
-.hr {
-    padding: 2px 10px;
-	display: inline-block;
 
-	/* visual do link */
-	background-color:#EDEDED;
-	color: #333;
-	text-decoration: none;
-	border-bottom:3px solid #EDEDED;
+#cabecalho {
+    
 }
-.infos{
+
+#titulo_1{
+color: #4b422f;
+}
+
+#img_cabecalho{
+    width: 25%;
+
+}
+
+#redes_sociais {
     display: flex;
+    align-items: center;
+    text-decoration: none;
     justify-content: center;
-    margin-left: -30%;
-    margin-top: -18% ;
-}
-.infos img{
-    width: 20%;
-    margin-top:0 ;
-}
-.infos p{
-    font-size: 30px;
-    margin-top: -18%;
-    margin-left: 28%;
-    color: #EDEDED;
-}
-.infos p:hover{
-    transition: 2s;
-    color: rgb(29, 22, 16);
-    font-size: 33px;
+    color: rgb(255, 255, 255);
+    margin-top: 1%;
 }
 
-@media screen and (max-width: 800px)  {    
-    .left-login H1{
-        font-size:40px;
-        margin-top: 0%;
-        margin-left: 12%;
-        
-    }
-    .left-login img {
-        width: 80%;
-        margin-left:10%;
-    }
-    .container h2 {
-        margin-top: 4%;
-        margin-left: 0%;
-        text-decoration: none;
-    }
-    .cont H1{
-        font-size:60px
-    }
-    .cont img{
-        width:25%;
-        margin-left: 20%
-    }
-    .cont{
-        text-align: center;
-        color: aliceblue;
-        margin:30%;
-        margin-top: 0%;
-        text-decoration: none;
-    
-    }
+#instagram {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.ancoras{
+    color: rgb(255, 255, 255);
+}
 
-    
+#github {
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+#linkedin {
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+#discord {
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+#textos{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
