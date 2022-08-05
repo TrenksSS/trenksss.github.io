@@ -137,3 +137,44 @@ body {
     margin-right: 1%;
     margin-left: 5%;
 }
+
+@media (max-width: 600px){
+
+    *{
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        font-family: 'Inconsolata', monospace;
+    }
+
+    #img_cabecalho {
+        width: 60%;
+
+    }
+
+    #redes_sociais {
+        display: flex;
+        align-items: flex-start;
+        text-decoration: none;
+        flex-direction: column;
+        color: rgb(255, 255, 255);
+        margin-top: 1%;
+    }
+
+    #tx_1 {
+        width: 80%;
+    }
+    
+    #tx_2 {
+        width: 80%;
+    }
+
+    #infos {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+}
+    
+
