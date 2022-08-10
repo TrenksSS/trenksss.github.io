@@ -137,6 +137,9 @@ body {
     margin-right: 1%;
     margin-left: 5%;
 }
+#btn-mobile{
+    display: none;
+}
 
 @media (max-width: 600px){
 
@@ -153,10 +156,18 @@ body {
     }
 
     #redes_sociais {
+    
         display: flex;
-        align-items: flex-start;
+        align-items: center;
         text-decoration: none;
         flex-direction: column;
+        color: rgb(255, 255, 255);
+        margin-top: 1%;
+    }
+    #redes_sociais.active #menu {
+        display: flex;
+        flex-wrap: wrap;
+        text-decoration: none;
         color: rgb(255, 255, 255);
         margin-top: 1%;
     }
@@ -174,6 +185,17 @@ body {
         justify-content: center;
         flex-direction: column;
     }
+    #btn-mobile{
+    display: block;
+    width: 60px;
+    border-radius: 10px;
+    background-color: #4b422f;
+    color: aliceblue;
+    }
+    #menu{
+        display: none;
+    }
+    
 
 }
     
