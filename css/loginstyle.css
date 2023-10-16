@@ -143,6 +143,26 @@ body {
 #btn-mobile{
     display: none;
 }
+#linkg a{
+ display: flex;
+ color: white;
+}
+#emailg{
+    margin-left: 10px;   
+}
+#nwh{
+    color: white;
+}
+#linkw{
+    margin-left: 30px;
+    margin-right: 10px;
+}
+#qrw{
+    width: 250px;
+    position: absolute;
+    top: 130vw;
+    right:10vh ;
+}
 
 @media (max-width: 600px){
 
